@@ -1,0 +1,58 @@
+What is algorithm?
+    It set by set rules to solve the problem or perform some calculation.
+
+What is Machine Learning?
+    Machine learning is a type of artificial intelligence(AI) that provides computer with the ability to learn
+    without being explicit programmed. ML focus on the development of computer programs that can change when exposed to new data.
+
+what are the types of Machine Learning?
+    1.Supervised Learning - Training labled data 
+        That training data(datatset) includes input data and response data.
+        Example: Regression, Decision Tree, Random Forest, KNN, Logistic Regression etc.
+    2.Unsupervised Learning - Training unlabled data
+        That training data(data) that only have a input data without labled response data.
+        Example: Apriori algorithm, K-means.
+    3.Reinforcement Learning - Branch of AI. It's a relationship between agent and the physical world.
+        Give reward based on the agent behaviour
+        Example: Markov Decision Process
+
+how a problem is solved using Machine learning?
+    These are the 5 Questions which can be answered in data science.
+    Q1.Is this A or B? -> Classification algorithm
+    Q2.Is this weired? -> Anomaly Detection algorithm
+    Q3.How much or How many? -> Regression algorithm
+    Q4.How is this organized? -> Clustering algorithm
+    Q5.What should I do next? -> Reinforcement Learning
+
+Machine Learning Algorithms:
+1.Classification Algorithm
+    It is used for questions which can have only a limited number of answers
+    Example:
+    1.it is cold? Yes or No
+    2.Do you go to work? Yes, No or Maybe
+
+2.Anomaly Detection Algorithm
+    It analyses a certain pattern and alerts you whenever there is change in the pattern.
+    Example:
+    1.Credit card company uses these Anomaly Detection algorithm.
+
+3.Regression Algorithm
+    It's used to calculate numeric values.
+    Example:
+    1.What will be the temperature be tomorrow?
+    2.How much discount can you give on a particular item?
+
+4.Clustering Algorithm
+    It's used to understand the structure of a dataset.
+    These algorithm separates the data into groups or clusters, to ease out the
+    interpretation of the data.
+
+5.Reinforcement Algorithm
+    These algorithm were designed as to how brains of humans or rats respond to punishment and rewards
+    Example:
+    1.A system which plays chess
+
+    Re Source:
+    http://edureka.com
+    https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+    
