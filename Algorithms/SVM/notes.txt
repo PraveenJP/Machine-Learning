@@ -1,0 +1,20 @@
+SVM(Support Vector Machine)
+
+What is SVM?
+    It is a classification method. In this algorithm, 
+    we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate.
+
+More Refer: https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+
+Python code
+==============
+#Import Library
+from sklearn import svm
+#Assumed you have, X (predictor) and Y (target) for training data set and x_test(predictor) of test_dataset
+# Create SVM classification object 
+model = svm.svc() # there is various option associated with it, this is simple for classification. You can refer link, for more detail.
+# Train the model using the training sets and check score
+model.fit(X, y)
+model.score(X, y)
+#Predict Output
+predicted= model.predict(x_test)
