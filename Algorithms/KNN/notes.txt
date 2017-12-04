@@ -1,0 +1,20 @@
+KNN (K Nearest Neighbors)
+
+What is KNN?
+    It can be used for both classification and regression problems. 
+    However, it is more widely used in classification problems in the industry. 
+    K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases by a majority vote of its k neighbors. 
+    The case being assigned to the class is most common amongst its K nearest neighbors measured by a distance function.
+
+Python Code
+==============
+
+#Import Library
+from sklearn.neighbors import KNeighborsClassifier
+#Assumed you have, X (predictor) and Y (target) for training data set and x_test(predictor) of test_dataset
+# Create KNeighbors classifier object model 
+KNeighborsClassifier(n_neighbors=6) # default value for n_neighbors is 5
+# Train the model using the training sets and check score
+model.fit(X, y)
+#Predict Output
+predicted= model.predict(x_test)
