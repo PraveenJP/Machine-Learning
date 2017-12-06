@@ -1,0 +1,4 @@
+/Tensorflow/logs/*
+*.meta
+*.index
+.vscode/*
