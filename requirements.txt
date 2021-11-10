@@ -12,6 +12,6 @@ pyflakes==1.6.0
 python-dateutil==2.6.1
 pytz==2017.2
 six==1.11.0
-tensorflow==2.5.0
+tensorflow==2.5.2
 tensorflow-tensorboard==0.4.0rc3
 Werkzeug==0.15.3
