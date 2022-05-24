@@ -4,4 +4,4 @@ protobuf==3.5.0.post1
 python-dateutil==2.6.1
 pytz==2017.3
 six==1.11.0
-tensorflow==2.5.0
+tensorflow==2.6.4
