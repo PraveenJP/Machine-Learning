@@ -4,7 +4,7 @@ flake8==3.5.0
 html5lib==0.9999999
 Markdown==2.6.9
 mccabe==0.6.1
-numpy==1.13.3
+numpy==1.22.0
 pandas==0.20.3
 protobuf==3.5.0.post1
 pycodestyle==2.3.1

@@ -1,4 +1,4 @@
-numpy==1.13.3
+numpy==1.22.0
 pandas==0.21.0
 protobuf==3.5.0.post1
 python-dateutil==2.6.1
